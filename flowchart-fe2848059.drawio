@@ -34,6 +34,15 @@
                 <mxCell id="8" value="Read harga_makanan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
                     <mxGeometry x="90" y="430" width="160" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="169.5" y="490" as="sourcePoint"/>
+                        <mxPoint x="169.5" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="stok jumlah_makanan &amp;gt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="560" width="170" height="120" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
