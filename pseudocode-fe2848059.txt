@@ -1,0 +1,18 @@
+// pseudocode pemesanan makanan online
+
+READ AND WRITE "menu_makanan" with string
+READ AND WRITE "harga_makanan" with number
+READ AND WRITE "jumlah_makanan" with number
+
+PROCEDURE calculate_harga(harga_makanan, jumlah_makanan)
+read and write "total_harga" with number
+store  calculation CALCULATE "harga_makanan" multipy by "jumlah_makanan"
+store total_harga with calculation
+return "total_harga"
+END PROCEDURE
+
+IF "jumlah_makanan" more than "0" 
+store "total_harga_makanan" with calculate_harga(harga_makanan, jumlah_makanan)
+print total_harga_makanan
+ELSE 
+PRINT "Silahkan Pilih menu_makanan lagi"
